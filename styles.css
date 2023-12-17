@@ -1,0 +1,283 @@
+/* Reset de margens e preenchimentos padrão */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    background-color: #06182e;
+}
+
+header {
+    text-align: center;
+    font-family: felix titling;
+}
+
+.imagem-container {
+    text-align: center;
+    background-color: #06182e;
+}
+
+.audio-gif-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.topo-col {
+    width: 50%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.gif {
+    width: 600px;
+    height: auto;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+/* Estilo do título */
+h1 {
+    font-family: felix titling;
+    color: #FFE09C;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: felix titling;
+    background-color: #f5cc74;
+    color: #06182e;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    font-family: felix titling;
+    color: #FFE09C;
+    padding: 20px 0;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+/* Estilizar o botão de reprodução e pausa */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-start-playback-button {
+    background-color: whitesmoke;
+    color: white;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #FFE09C;
+}
+
+audio::-webkit-media-controls-volume-slider-thumber {
+    background-color: white;
+}
+
+hr {
+    color: #FFE09C;
+    size: 1px;
+}
+
+.linha-sep {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #FFE09C;
+}
+
+/* Estilo da barra de navegção */
+nav {
+    background-color: #f5cc74;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    color: #0B2F5A;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #FFE09C;
+}
+
+.meu-paragrafo {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFE09C;
+    line-height: 1, 5px;
+    margin-bottom: 5px;
+}
+
+.biografia-container {
+    display: flex;
+}
+
+.imagem-bio {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.imagem-bio img {
+    max-width: 80%;
+    height: auto;
+}
+
+.texto-bio {
+    flex: 1;
+    max-width: 1000px;
+}
+
+#livros {
+    margin-top: 30px;
+}
+
+.livro {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.livro img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.info-livro {
+    flex: 1;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+#filme {
+    margin-top: 30px;
+}
+
+.filme {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.filme img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50px;
+}
+
+.info-filme {
+    flex: 1;
+}
+
+.info-filme video {
+    width: 50%;
+    height: auto;
+}
+
+.persona {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.personagem {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.personagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-personagem {
+    text-align: left;
+}
+
+.info-personagem h3 {
+    margin-bottom: 5px;
+}
+
+.local-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.local-magico {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#recomendacao {
+    margin-top: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.video-container .video-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    width: 100%;
+}
+
+.video-container h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #06182e;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #FFE09C;
+}
